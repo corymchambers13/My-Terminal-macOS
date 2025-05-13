@@ -176,7 +176,7 @@ alias cat='bat'
 alias batcat='bat --paging=never'
 
 # eza (Enhanced ls) Aliases
-alias ls='ezaa'
+alias ls='eza'
 alias la='eza -a'
 alias ll='eza -lhF --git'
 alias lt='eza -T -L 2'
