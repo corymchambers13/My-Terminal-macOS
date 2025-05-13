@@ -8,7 +8,7 @@ _chmod +x setup_mac_zsh_p10k.sh_
 _./setup_mac_zsh_p10k.sh_
 
 
-Install the FuraMono Nerd Font as mentioned in the PDF.
+Install the FuraMono Nerd Font
 
 
 Run "p10k configure" to finalize your Powerlevel10k setup.
