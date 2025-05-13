@@ -11,6 +11,6 @@ _./setup_mac_zsh_p10k.sh_
 Install the FuraMono Nerd Font
 
 
-Run "p10k configure" to finalize your Powerlevel10k setup.
+Run "p10kconfigure" to finalize your Powerlevel10k setup.
 
 Restart shell when complete "exec zsh" or close/reopen
