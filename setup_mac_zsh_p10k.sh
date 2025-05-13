@@ -119,21 +119,12 @@ alias lt='eza -T -L 2'
 alias lla='eza -la'
 
 # Show/Hide Hidden Files in Finder
-alias togglehidden='defaults write com.apple.Finder AppleShowAllFiles -bool ! $(defaults read com.apple.Finder AppleShowAllFiles) && killall Finder'
+alias showhidden='defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder'
+alias hidehidden='defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder'
 
-# sed, grep, and awk Aliases
-alias gg='grep -i'
-alias ggc='grep -C 3'
-alias gl='grep -l'
-alias gcount='grep -c'
-alias gignore='grep -v'
-alias srepl='sed -i ""'
-alias sdel='sed -i "" "/PATTERN/d"'
-alias sstrip='sed "s/^[ \t]*//;s/[ \t]*$//"'
-alias awksum='awk "{s+=\$1} END {print s}"'
-alias awkcol='awk "{print \$2}"'
-alias awklines='awk "END {print NR}"'
-alias awkavg='awk "{s+=\$1} END {print s/NR}"'
+#sysdump
+alias sysdash='~/sysdash.sh'
+
 
 # Print all aliases
 alias help-alias="grep '^alias ' ~/.zshrc | sed 's/^alias //g'"
